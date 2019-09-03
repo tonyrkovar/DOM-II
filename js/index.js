@@ -43,7 +43,6 @@ imgFlip.addEventListener('mousemove', e => {
 imgFlip.addEventListener('transitionend', e => {
     imgFlip.style.color = 'red';
     imgFlip.style.transform = 'rotate(1800deg)';
-    imgFlip.textContent = 'weeeeeeeeeeeeeeeeeee';
     imgFlip.style.backgroundColor = 'gray';
     imgFlip.style.transition = '30.8s';
 })
@@ -54,7 +53,6 @@ const imgFlipDest = document.querySelector('.content-destination img');
 imgFlipDest.addEventListener('mousemove', e => {
     imgFlipDest.style.color = 'blue';
     imgFlipDest.style.transform = 'rotate(18000deg)';
-    imgFlipDest.textContent = 'weeeeeeeeeeeeeeeeeee';
     imgFlipDest.style.backgroundColor = 'peru';
     imgFlipDest.style.transition = '10s';
 });
@@ -62,7 +60,6 @@ imgFlipDest.addEventListener('mousemove', e => {
 imgFlipDest.addEventListener('transitionend', e => {
     imgFlipDest.style.color = 'red';
     imgFlipDest.style.transform = 'rotate(1800deg)';
-    imgFlipDest.textContent = 'weeeeeeeeeeeeeeeeeee';
     imgFlipDest.style.backgroundColor = 'gray';
     imgFlipDest.style.transition = '30.8s';
 })
